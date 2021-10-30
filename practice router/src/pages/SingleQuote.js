@@ -6,14 +6,6 @@ import { getSingleQuote } from '../lib/api'
 import Comments from '../components/comments/Comments'
 import HighlightedQuote from '../components/quotes/HighlightedQuote'
 import LoadingSpinner from '../components/UI/LoadingSpinner'
-import NoQuotesFound from '../components/quotes/NoQuotesFound'
-
-const DUMMY_QUOTES = [
-  { id: 'q1', author: 'John', text: 'Something something' },
-  { id: 'q2', author: 'Ellen', text: 'Blah blah something' },
-  { id: 'q3', author: 'Tom', text: 'Something blah blah' },
-  { id: 'q4', author: 'Katie', text: 'Talking talking' },
-]
 
 const SingleQuote = () => {
   const {
